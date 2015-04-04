@@ -29,8 +29,6 @@ Post processing of the raw GNSS measurements is achived with [RTKLIB](http://www
 
 RTKCONV using the default settings was used to decompose the raw measurements into [RINEX 2.01](ftp://igscb.jpl.nasa.gov/pub/data/format/rinex2.txt) format parts: observations (OBS), GNSS satellites navigations (NAV), geostationary satellites navigations (HNAV), and the Satellite-based augmentation system records (SBS). However, only the obs file results are used for all further processing.
 
-Executing RTKPOST in single positioning mode, using the default configurations, on the only the obs and nav files, produces [pos](https://github.com/mmccartn/RTK-Single-NMEA-Issue/blob/master/7p_downtown_0/auto_r212.pos) and [kml](https://github.com/mmccartn/RTK-Single-NMEA-Issue/blob/master/7p_downtown_0/auto_r212.kml) results for RINEX versions 2.12 and 3.03 (see [repo](https://github.com/mmccartn/RTK-Single-NMEA-Issue/7p_downtown_0)).
-
 The NMEA lat/lon data from the ubx-formatted input files is extracted using and converted to kml using an online [web tool](http://www.h-schmidt.net/NMEA/)
 
 RTKPOST in positioning modes: Single, DGPS, Kinetic is used to convert the OBS files to position entries. In all modes, RTKPOST was configured with elevation mask of 15 degrees, ionosphere correctuon turned off, troposhphere correction turned off, GPS ang GLO satellites enabled, and base station position set to the location provided by unavco. All other settings were left default.

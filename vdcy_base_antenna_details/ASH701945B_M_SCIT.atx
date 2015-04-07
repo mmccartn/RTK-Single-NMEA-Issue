@@ -1,0 +1,22 @@
+     1.4            G                                       ANTEX VERSION / SYST
+A                                                           PCV TYPE / REFANT   
+This calibration extracted from composite ngs08.atx.  See   COMMENT            
+the composite file ngs08.atx for more information.          COMMENT            
+                                                            END OF HEADER       
+                                                            START OF ANTENNA    
+ASH701945B_M    SCIT                                        TYPE / SERIAL NO    
+FIELD               NGS                      3    25-MAR-11 METH / BY / # / DATE
+     0.0                                                    DAZI                
+     0.0  80.0   5.0                                        ZEN1 / ZEN2 / DZEN  
+     2                                                      # OF FREQUENCIES    
+IGS08_1837                                                  SINEX CODE          
+CONVERTED FROM RELATIVE NGS ANTENNA CALIBRATIONS            COMMENT             
+   G01                                                      START OF FREQUENCY  
+      0.68     -0.27     89.25                              NORTH / EAST / UP   
+   NOAZI    0.00   -0.53   -1.50   -2.83   -4.22   -5.82   -7.16   -8.29   -9.07   -9.31   -9.16   -8.39   -7.13   -5.45   -3.28   -0.41    3.07
+   G01                                                      END OF FREQUENCY    
+   G02                                                      START OF FREQUENCY  
+     -0.18     -0.39    117.85                              NORTH / EAST / UP   
+   NOAZI    0.00   -0.23   -0.61   -1.18   -1.89   -2.58   -3.39   -4.27   -4.91   -5.31   -5.45   -5.06   -4.23   -2.83   -1.13    1.19    4.15
+   G02                                                      END OF FREQUENCY    
+                                                            END OF ANTENNA      

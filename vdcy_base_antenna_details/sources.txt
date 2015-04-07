@@ -1,0 +1,5 @@
+Glendale station specific info:
+http://www.unavco.org/instrumentation/networks/status/pbo/overview/VDCY
+
+General antenna info from ngs noaa:
+http://www.ngs.noaa.gov/ANTCAL/Antennas.jsp?manu=Ashtech

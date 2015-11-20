@@ -19,7 +19,7 @@ Several of our tests also employ our own base station, by way of a 6t or 7p stat
 ### Measurement Settings
 On our rover devices, ubx-formatted gps measurements are captured using u-center, configured with a baud rate of 9600 kBd, a measurement period of 1000 ms, and with the following messages enabled on the serial interface: NAV_POSLLH, MSG_NAV_POSECEF, MSG_RXM_RAW, and MSG_RXM_SFRB entries. 
 
-[pyUblox](https://github.com/tridge/pyUblox/blob/master/7p_downtown_0/ublox_capture_raw.py) was also used on several occasions where the Linux was neccessary, and was configured similar to above, but having options: prefered dynamic model=automobile and PPP=off for the rover and prefered dynamic model=stationary and PPP=on for the base.
+[pyUblox](https://github.com/tridge/pyUblox/blob/master/ublox_capture_raw.py) was also used on several occasions where the Linux was neccessary, and was configured similar to above, but having options: prefered dynamic model=automobile and PPP=off for the rover and prefered dynamic model=stationary and PPP=on for the base.
 
 NTRIP base station streams are logged at 1 Hz, concurrent with out rover tests using RTKNAVI with default configurations.
 
